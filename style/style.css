@@ -1,0 +1,56 @@
+* {
+    
+    background-color: rgba(238, 238, 237, 0.637);
+}
+
+body {
+    padding: 3vh 10vh 10vh 10vh;
+    
+}
+
+.title{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.788);
+    
+}
+
+.article-lasagna {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.7);
+}
+
+/* Style Lasagna */
+header {
+    display: grid;
+}
+
+.home{
+    height: 3vh;
+    width: 7vh;
+    border-radius: 10%;
+    background-color: antiquewhite;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    transition: 0.2s;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.home a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.home:hover {
+    
+    scale: 120%;
+}
+
+.description{
+    max-width: 50ch;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
